@@ -7,7 +7,7 @@ const token = process.env.token
 
 /* Bouterfa */
 bot.on('message', function(message){
-    if(message.content == '$Bouterfa'){
+    if(message.content == '$Bou'){
         var rand = getRandomInt(16)
         switch(rand){
             case(0):
@@ -64,7 +64,7 @@ bot.on('message', function(message){
 
 /* MASSON */
 bot.on('message', function(message){
-    if(message.content == '$Masson'){
+    if(message.content == '$Mass'){
         var rand = getRandomInt(8)
         switch(rand){
             case(0):
@@ -97,7 +97,7 @@ bot.on('message', function(message){
 
 /* DEWULF */
 bot.on('message', function(message){
-    if(message.content == '$Dewulf'){
+    if(message.content == '$Dew'){
         var rand = getRandomInt(3)
         switch(rand){
             case(0):
@@ -115,7 +115,7 @@ bot.on('message', function(message){
 
 /* FAULKNER */
 bot.on('message', function(message){
-    if(message.content == '$Faulkner'){
+    if(message.content == '$Faul'){
         var rand = getRandomInt(4)
         switch(rand){
             case(0):
@@ -136,7 +136,7 @@ bot.on('message', function(message){
 
 /* HECQUET */
 bot.on('message', function(message){
-    if(message.content == '$Delvigne'){
+    if(message.content == '$Del'){
         var rand = getRandomInt(6)
         switch(rand){
             case(0):
@@ -166,7 +166,7 @@ bot.on('message', function(message){
 
 /* HECQUET */
 bot.on('message', function(message){
-    if(message.content == '$Hecquet'){
+    if(message.content == '$Hecq'){
         var rand = getRandomInt(2)
         switch(rand){
             case(0):
@@ -181,8 +181,8 @@ bot.on('message', function(message){
 
 /* HELP */
 bot.on('message', function(message){
-    if(message.content == '$ProfsHelp'){
-        message.channel.send('$Bouterfa $Faulkner $Masson $Dewulf $Hecquet $Thomas $Delvigne $Lucie')
+    if(message.content == '$MyBotHelp'){
+        message.channel.send('$Bou $Faul $Mass $Dew $Hecq $Thomas $Del $Lucie')
     }
 })
 
