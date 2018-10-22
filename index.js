@@ -1,6 +1,6 @@
 /* README
    Lors de l'ajout d'un case ne pas oublié d'incrémenter le chiffre maximum lors de l'appel à la méthode getRandomInt() */
-
+//test
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 const token = process.env.token
