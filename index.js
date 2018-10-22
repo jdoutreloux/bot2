@@ -265,6 +265,18 @@ bot.on('message', function(message){
     }
 })
 
+/* JUSTIN */
+bot.on('message', function(message){
+    if(message.content == '$Justin'){
+        var rand = getRandomInt(3)
+        switch(rand){
+            case(0):
+                message.channel.send('Je vais dans la 2e toilette, l\'interrupteur est plus beau')
+                break
+        }
+    }
+})
+
 /* WillSmith */
 bot.on('message', function(message){
     if(message.content == '$WillSmith'){
