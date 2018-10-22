@@ -7,7 +7,7 @@ const token = process.env.token
 
 /* Bouterfa */
 bot.on('message', function(message){
-    if(message.content == '$Bou'){
+    if(message.content == '$Bouterfa'){
         var rand = getRandomInt(16)
         switch(rand){
             case(0):
@@ -64,7 +64,7 @@ bot.on('message', function(message){
 
 /* MASSON */
 bot.on('message', function(message){
-    if(message.content == '$Mass'){
+    if(message.content == '$Masson'){
         var rand = getRandomInt(8)
         switch(rand){
             case(0):
@@ -97,7 +97,7 @@ bot.on('message', function(message){
 
 /* DEWULF */
 bot.on('message', function(message){
-    if(message.content == '$Dew'){
+    if(message.content == '$Dewulf'){
         var rand = getRandomInt(3)
         switch(rand){
             case(0):
@@ -115,7 +115,7 @@ bot.on('message', function(message){
 
 /* FAULKNER */
 bot.on('message', function(message){
-    if(message.content == '$Faul'){
+    if(message.content == '$Faulkner'){
         var rand = getRandomInt(4)
         switch(rand){
             case(0):
@@ -136,7 +136,7 @@ bot.on('message', function(message){
 
 /* HECQUET */
 bot.on('message', function(message){
-    if(message.content == '$Del'){
+    if(message.content == '$Delvigne'){
         var rand = getRandomInt(6)
         switch(rand){
             case(0):
@@ -166,7 +166,7 @@ bot.on('message', function(message){
 
 /* HECQUET */
 bot.on('message', function(message){
-    if(message.content == '$Hecq'){
+    if(message.content == '$Hecquet'){
         var rand = getRandomInt(2)
         switch(rand){
             case(0):
@@ -181,8 +181,8 @@ bot.on('message', function(message){
 
 /* HELP */
 bot.on('message', function(message){
-    if(message.content == '$MyBotHelp'){
-        message.channel.send('$Bou $Faul $Mass $Dew $Hecq $Thomas $Del $Lucie')
+    if(message.content == '$ProfsHelp'){
+        message.channel.send('$Bouterfa $Faulkner $Masson $Dewulf $Hecquet $Thomas $Delvigne $Lucie')
     }
 })
 
@@ -211,6 +211,17 @@ bot.on('message', function(message){
         switch(rand){
             case(0):
                 message.channel.send('Je vais finir par en tuer un c\'est pas possible')
+                break
+        }
+    }
+})
+/* JUSTIN */
+bot.on('message', function(message){
+    if(message.content == '$Justin'){
+        var rand = getRandomInt(1)
+        switch(rand){
+            case(0):
+                message.channel.send('Je vais dans la 2e toilette, l\'interrupteur est mieux')
                 break
         }
     }
